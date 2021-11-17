@@ -206,7 +206,7 @@ footer {
 /* this class is applied to the columns in the final row, overriding the height and padding 
 to provide more room for the contact form, while keeping the rest of the formatting from column-1 or column-2 */
 .column-tall {
-    	padding-top: 3.5%;
+    	padding-top: 2.3%;
     	height: 460px;
 }
 
