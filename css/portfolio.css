@@ -46,7 +46,7 @@ p:hover {
 }
 
 a {
-	color: blue;
+	color: red;
 }
 
 q {
@@ -54,7 +54,7 @@ q {
 }
 
 img {
-	filter: grayscale(75%);
+	filter: grayscale(25%);
 	border-radius: 8px;
 	max-width: 100%;
 	height: 340px;
@@ -86,13 +86,13 @@ footer {
 /* NAVBAR STYLING */
 .navbar {
 	overflow: hidden;
-	background-color: black;
+	background-color: steelblue;
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
 	-webkit-animation: moveNav 5s; /* for Safari 4.0-8.0 */
-	animation: moveNav 5s;
+	animation: moveNav 3s;
 }
 
 /* moveNav animation effect for moving the nav bar in from the left of the screen */
@@ -112,7 +112,7 @@ footer {
 	text-align: center;
 	position: relative;
 	-webkit-animation: moveNavText 5.75s; /* for Safari 4.0-8.0 */
-	animation: moveNavText 5.75s; 
+	animation: moveNavText 3.75s; 
 }
 
 /* moveNavText animation effect for moving the navbar text from above the view to the navbar */
@@ -131,7 +131,7 @@ footer {
 
 .navbar a:hover {
     	background-color: #f4f4f4;
-    	color: black;
+    	color: red;
     	font-weight: bold;
 }
 
@@ -140,23 +140,23 @@ footer {
     	background-color: darkgray;
 }
 
-/* video styling */
-# {
+/* VIDEO STYLING */
+#cyber-typing {
     	position: fixed;
     	right: 0;
-	bottom: 0;
+	bottom: 25%;
     	min-width: 100%;
     	z-index: -1;
 }
 
 /* screens that are 576px and smaller will not display the background video */
 @media screen and (max-width: 576px) {
-    	# {
+    	#cyber-typing {
         	display: none;
     	}
 }
 
-.video_text {
+.vid-text {
     	background: rgba(0, 0, 0, 0.5);
     	color: white;
     	width: 100%;
@@ -207,7 +207,7 @@ footer {
 to provide more room for the contact form, while keeping the rest of the formatting from column-1 or column-2 */
 .column-tall {
     	padding-top: 3.5%;
-    	height: 450px;
+    	height: 460px;
 }
 
 /* this inserts something after the content of selected elements (in this case the elements with class "row") */
@@ -237,7 +237,7 @@ input[type=text]:hover {
 
 /* SUBMIT BUTTON */
 input[type=submit] {
-    	background-color: black;
+    	background-color: steelblue;
     	color: white;
     	font-weight: bold;
     	padding: 12px 20px;
@@ -251,9 +251,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    	background-color: white;
+    	background-color: red;
     	color: black;
-    	transform: scale(1.5);
+    	transform: scale(1.2);
     	transition: transform 1.5s;
 }
 
