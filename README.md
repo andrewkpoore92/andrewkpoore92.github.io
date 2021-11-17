@@ -3,7 +3,6 @@
 <p>These are the projects I made while going through Tech Academy's HTML and CSS course.</p>
 
 <h1>Projects</h1>
-<br>
 <ul>
     <li><a href="https://github.com/andrewkpoore92/Iceland-Project">Iceland Project
         </a></li>
