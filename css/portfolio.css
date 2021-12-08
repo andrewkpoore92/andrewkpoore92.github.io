@@ -1,7 +1,6 @@
 /* GENERAL STYLING */
-
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -16,7 +15,7 @@ body {
 }
 
 body.fade-out {
-    opacity: .1;
+	opacity: .1;
 }
 
 h1 {
