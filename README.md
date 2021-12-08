@@ -1,5 +1,5 @@
 # Portfolio
-<h1>Final HTML and CSS portfolio</h1>
+<h1>HTML, CSS, and Javascript Portfolio</h1>
 <p>These are the projects I made while going through Tech Academy's HTML and CSS course, as well as the Front End Development & Security Course.</p>
 
 <h1>Projects</h1>
