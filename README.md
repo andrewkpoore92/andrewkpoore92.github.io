@@ -4,6 +4,8 @@
 
 <h1>Projects</h1>
 <ul>
+    <li><a href="https://andrewkpoore92.github.io/">My Portfolio
+        </a></li>
     <li><a href="https://github.com/andrewkpoore92/Iceland-Project">Iceland Project
         </a></li>
     <li><a href="https://github.com/andrewkpoore92/Cinema-Project">Cinema Project
