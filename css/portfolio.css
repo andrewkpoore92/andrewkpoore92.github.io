@@ -107,7 +107,7 @@ footer {
 	width: 100%;
 	z-index: 1;
 	-webkit-animation: moveNav 5s; /* for Safari 4.0-8.0 */
-	animation: moveNav 3s;
+	animation: moveNav 5s;
 }
 
 /* moveNav animation effect for moving the nav bar in from the left of the screen */
@@ -201,7 +201,7 @@ footer {
 #slideshow_container {
     	width: 39.5vw; 
     	height: auto; 
-    	padding-top: 4%; /
+    	padding-top: 4%; 
     	position: relative; 
     	margin:auto; 
 }
