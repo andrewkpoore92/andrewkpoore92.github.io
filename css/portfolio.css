@@ -55,7 +55,6 @@ p:hover {
 	text-align: center;
 }
 
-/* this affects the quote, github link, and footer */
 .center:hover {
 	transition: transform 2s;
 	transform: scale(1.1);
@@ -84,8 +83,6 @@ img:hover {
 	filter: grayscale(5%);
 }
 
-/* the @media rule is used in media queries to apply different styles for different media/types of devices */
-/* on screens 576px and smaller the images will be 100px tall and centered vertically in the column */
 @media screen and (max-width: 576px) {
 	img {
 		height: 100px;
@@ -106,14 +103,13 @@ footer {
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	-webkit-animation: moveNav 5s; /* for Safari 4.0-8.0 */
+	-webkit-animation: moveNav 5s;
 	animation: moveNav 5s;
 }
 
-/* moveNav animation effect for moving the nav bar in from the left of the screen */
 @keyframes moveNav {
-	from {left: -100vw;} /* the navbar is starting off screen to the left */
-	to {left: 0vw;} /* this moves the navbar into place on the screen */
+	from {left: -100vw;} 
+	to {left: 0vw;} 
 }
 
 .navbar a {
@@ -126,17 +122,15 @@ footer {
 	font-size: 1.5vw;
 	text-align: center;
 	position: relative;
-	-webkit-animation: moveNavText 5.75s; /* for Safari 4.0-8.0 */
+	-webkit-animation: moveNavText 5.75s; 
 	animation: moveNavText 5.75s; 
 }
 
-/* moveNavText animation effect for moving the navbar text from above the view to the navbar */
 @keyframes moveNavText {
-	from {top: -100vw;} /* this sets the navbar text 100% above the viewport */
-	to {top: 0vw;} /* this lowers the navbar text onto the navbar */
+	from {top: -100vw;} 
+	to {top: 0vw;} 
 }
 
-/* screens 576px and smaller will display navbar links equally distributed */
 @media screen and (max-width: 576px) {
 	.navbar a {
         	width: 20%;
@@ -152,7 +146,7 @@ footer {
 }
 
 /* navbar home button */
-.navbar a.active { /* this targets the a element on the navbar with the "active" class */
+.navbar a.active { 
     	background-color: darkgray;
 }
 
@@ -165,7 +159,6 @@ footer {
     	z-index: -1;
 }
 
-/* screens that are 576px and smaller will not display the background video */
 @media screen and (max-width: 576px) {
     	#cyber-typing {
         	display: none;
@@ -183,10 +176,9 @@ footer {
     	animation: moveVideoText 5.75s;
 }
 
-/* this animation effect causes the overlay video text to move up from the bottom of the page upon page load */
 @keyframes moveVideoText {
-    	from {top: -100vw;} /* this sets the position of the video text to above the viewport */
-    	to {top: 0vw;} /* this moves the video text to the normal positioning on the viewport */
+    	from {top: -100vw;} 
+    	to {top: 0vw;} 
 }
 
 /* SLIDESHOW STYLING */
@@ -286,8 +278,8 @@ footer {
 }
 
 /* TABLE STYLING */
-* { /* the asterisk is a universal selector that applies this effect to all elements on the page */
-    	box-sizing: border-box; /* this creates a box with a border within which we will place most of our text */
+* { 
+    	box-sizing: border-box; 
 } 
 
 .column-1 {
@@ -295,12 +287,9 @@ footer {
     	width: 50%;
     	padding: 1.6%;
     	height: 500px; 
-	/* this sets the height of the column to 400px-this may need to be adjusted depending on the text you enter */
     	background-color: #f2f2f2;
 }
 
-/* the @media rule is used in media queries to apply different styles for different media/types of devices */
-/* screens 576px and smaller will display a scroll bar if the text overflows the column height */
 @media screen and (max-width: 576px) {
     	.column-1 {
         	overflow: auto;
@@ -315,15 +304,13 @@ footer {
     	background-color: #4d4d4d;
 }
 
-/* this inserts something after the content of selected elements (in this case the elements with class "row") */
 .row:after {
-	content: ""; /* by leaving this blank, we are allowing the footer (covered lower down) to be displayed-removing it makes the footer overwrite a column */
-	display: table; /* the display property specifies the type of display behavior; the table value tells the browser to treat the element as a table */
-	clear: both; /* this clears any other elements from floating on the left or the right of an element */
+	content: ""; 
+	display: table; 
+	clear: both; 
 }
 
 /* CONTACT FORM STYLING */
-/* button used to open the contact form, fixed at the bottom of the page */
 .pop_up_button {
 	position: fixed; 
 	bottom: 1.75vw; 
@@ -337,7 +324,6 @@ footer {
 	animation: movePopup 5s; 
 }
 
-/* movePopup animation moves the button from off the right side of the screen to its fixed location on the viewport */
 @keyframes movePopup {
 	from {right: -40vw;} 
     	to {right: 1.75vw;}
